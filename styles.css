@@ -1,0 +1,75 @@
+
+h1 {font-family: 'Ultra', serif;
+	font-size: 40px;}
+
+p {font-family: 'Droid Sans', sans-serif;
+	font-size: 18px; margin: 20px; }
+
+body { background: orange; color: white; }	
+@media screen and (min-width: 760px) { body { background: green; }}
+@media screen and (min-width: 960px) { body { background: deepskyblue; }}
+
+img {padding:1px; border:1px solid #021a40; overflow:hidden;}
+
+a:link    { color: blue; }
+a:visited { color: black; }
+a:hover	  { color: red; }
+a:active  { color: pink; }
+
+
+.box { 
+		border: 5px red solid;
+		padding: 20px;
+		text-align: center;
+		color: black;
+		background-color: cornsilk;
+		
+	}
+
+#container {
+		font-size: 25px;
+		text-decoration: underline;
+		color: white;
+		text-align: left;
+		list-style: square;
+		background-image: url('../images/tran.jpeg');
+		height: 100%; 
+		background-position: center;
+		background-repeat: non-repeat;
+		background-size: cover; 
+		}
+
+/*image grid*/
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+		}
+	.column {
+		flex: 25%;
+		justify-content: space-between;
+		padding: 0 4px;
+		}
+	.column img {
+		margin: 10px;
+		vertical-align: middle;
+		height: 180px; width: 260px;
+		}
+
+.my-button {
+			display: block;
+			color: white;
+			font-size: 1.25rem;
+			padding: .75rem 1.25rem;
+			margin: 2rem auto;
+			border-radius: .5rem;
+			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		  }
+.my-button-standard {
+			background: #64908A; /* greenish-blue */
+			border: 2px solid #4c6d68;
+		  }
+.my-button-error {
+			background:#CC2A41; 
+			border: 2px solid #270e23;
+		  }
