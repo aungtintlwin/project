@@ -9,11 +9,10 @@ function getCar(make) {
           const carModel = car[i].Model_Name;
           console.log(i+1, carModel);
 
-          const models = document.getElementById("models");
+          // const models = document.getElementById("models");
           let li = document.createElement('li');   
           li.innerHTML = createListItem(carModel);
           models.appendChild(li);
-
         } 
        
     })
@@ -39,5 +38,3 @@ function handleSubmit(event) {
   getCar(make);
   }
  
- 
-getCar()

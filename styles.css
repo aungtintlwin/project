@@ -18,21 +18,23 @@ a:active  { color: pink; }
 
 
 .box { 
-		border: 5px red solid;
-		padding: 20px;
+		border: 3px gold solid;
+		padding: 50px 400px;
 		text-align: center;
-		color: black;
-		background-color: cornsilk;
-		
+		color: red;
+		font-weight: bold;
+		background-image: url("../images/carbike.jpeg");
+		background-position: 100% 37%;
+		background-size: 100%;
+	
 	}
 
-#container {
+.container {
 		font-size: 25px;
 		text-decoration: underline;
-		color: white;
-		text-align: left;
+		color: black;
+		text-align: center;
 		list-style: square;
-		/*background-image: url('../images/tran.jpeg');*/
 		height: 100%; 
 		background-position: center;
 		background-repeat: non-repeat;
@@ -66,7 +68,7 @@ a:active  { color: pink; }
 			text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 		  }
 .my-button-standard {
-			background: #64908A; /* greenish-blue */
+			background: rgb(156, 223, 214); 
 			border: 2px solid #4c6d68;
 		  }
 .my-button-error {
